@@ -1,0 +1,249 @@
+# Path related
+raw_dataset_dir: data/raw/
+train_set_path:
+- data/processed/x_train.pkl
+- data/processed/y_train.pkl
+valid_set_path:
+- data/processed/x_valid.pkl
+- data/processed/y_valid.pkl
+test_set_path:
+- data/processed/x_test.pkl
+- data/processed/y_test.pkl
+train_feng_set_path:
+- data/processed/x_train_feng.pkl
+- data/processed/y_train_feng.pkl
+valid_feng_set_path:
+- data/processed/x_valid_feng.pkl
+- data/processed/y_valid_feng.pkl
+test_feng_set_path:
+- data/processed/x_test_feng.pkl
+- data/processed/y_test_feng.pkl
+raw_dataset_path: data/processed/raw_dataset.pkl
+cleaned_raw_dataset_path: data/processed/raw_dataset.pkl
+production_model_path: models/production_model.pkl
+
+ohe_job_path: models/ohe_job.pkl
+ohe_marital_path: models/ohe_marital.pkl
+ohe_education_path: models/ohe_education.pkl
+ohe_default_path: models/ohe_default.pkl
+ohe_housing_path: models/ohe_housing.pkl
+ohe_loan_path: models/ohe_loan.pkl
+ohe_contact_path: models/ohe_contact.pkl
+ohe_month_path: models/ohe_month.pkl
+ohe_day_of_week_path: models/ohe_day_of_week.pkl
+ohe_poutcome_path: models/ohe_poutcome.pkl
+ohe_pdays_group_path: models/ohe_pdays_group.pkl
+ohe_age_group_path: models/ohe_age_group.pkl
+
+scaler_path: models/scaler.pkl
+le_path: models/label_encoder.pkl
+
+training_log_path: log/training_log.json
+
+# Debug related
+print_debug: true
+
+# Columns by data type related
+int64_columns:
+- age
+- duration
+- campaign
+- pdays
+- previous
+
+object_columns:
+- job
+- marital
+- education
+- default
+- housing
+- loan
+- contact
+- month
+- day_of_week
+- poutcome
+
+float64_columns:
+- empvarrate
+- conspriceidx
+- consconfidx
+- euribor3m
+- nremployed
+
+# Predictors and label related
+label: y
+predictors:
+- age
+- job
+- marital
+- education
+- default
+- housing
+- loan
+- contact
+- month
+- day_of_week
+- duration
+- campaign
+- pdays
+- previous
+- poutcome
+- empvarrate
+- conspriceidx
+- consconfidx
+- euribor3m
+- nremployed
+
+predictors_categorical:
+- job
+- marital
+- education
+- default
+- housing
+- loan
+- contact
+- month
+- day_of_week
+- poutcome
+- pdays_group
+- age_group
+
+# Range of data related
+range_age:
+- 17
+- 99
+
+range_duration:
+- 0
+- 4918
+
+range_campaign:
+- 1
+- 56
+
+range_pdays:
+- -1
+- 999
+
+range_previous:
+- 0
+- 7
+
+range_poutcome:
+- nonexistent
+- failure
+- success
+
+range_job:
+- admin.
+- blue-collar
+- technician
+- services
+- management
+- retired
+- entrepreneur
+- self-employed
+- housemaid
+- unemployed
+- student
+- unknown
+
+range_marital:
+- married
+- single
+- divorced
+- unknown
+
+range_education:
+- university.degree
+- high.school
+- basic.9y
+- professional.course
+- basic.4y
+- basic.6y
+- unknown
+- illiterate
+
+range_default:
+- 'no'
+- 'unknown'
+- 'yes'
+
+range_housing:
+- 'yes'
+- 'no'
+- 'unknown'
+
+range_loan:
+- 'no'
+- 'yes'
+- 'unknown'
+
+range_contact:
+- cellular
+- telephone
+
+range_month:
+- may
+- jul
+- aug
+- jun
+- nov
+- apr
+- oct
+- sep
+- mar
+- dec
+
+range_day_of_week:
+- thu
+- mon
+- wed
+- tue
+- fri
+
+range_poutcome:
+- nonexistent
+- failure
+- success
+
+range_empvarrate:
+- -3.4
+- 1.4
+
+range_conspriceidx:
+- 90
+- 95
+
+range_consconfidx:
+- -51
+- -26
+
+range_euribor3m:
+- 0.63
+- 5.1
+
+range_nremployed:
+- 4963
+- 5229
+
+range_y:
+- 'no'
+- 'yes'
+
+range_pdays_group:
+- 'Not contacted'
+- '1w'
+- '2w'
+- '2wmore'
+
+range_age_group:
+- '31-40'
+- '41-50'
+- '30less'
+- '51-60'
+- '60more'
+
+label_categories:
+- 'no'
+- 'yes'
