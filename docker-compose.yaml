@@ -2,6 +2,7 @@ name: telemarketing
 services:
   streamlit:
     build: docker/streamlit
+    image: satriahelmy/telemarketing:streamlit
     container_name: streamlit_frontend
     depends_on:
       - api
@@ -11,6 +12,7 @@ services:
       - ./:/home/
   api:
     build: docker/api
+    image: satriahelmy/telemarketing:api
     container_name: api_backend
     ports:
       - 8080:8080
