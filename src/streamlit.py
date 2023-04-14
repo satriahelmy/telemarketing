@@ -164,27 +164,32 @@ with st.form(key = "telemarketing_form"):
     
     empvarrate = st.number_input(
         label="Employment variation rate - quarterly indicator",
-        step=1.,
+        min_value = -3.4,
+        max_value = 1.4,
         format="%.2f")
     
     conspriceidx = st.number_input(
         label="Consumer price index - monthly indicator",
-        step=1.,
+        min_value = 90.0,
+        max_value = 95.0,
         format="%.2f")
     
     consconfidx = st.number_input(
         label="Consumer confidence index - monthly indicator",
-        step=1.,
+        min_value = -51.0,
+        max_value = -26.0,
         format="%.2f")
     
     euribor3m = st.number_input(
         label="Euribor 3 month rate - daily indicator",
-        step=1.,
+        min_value = 0.63,
+        max_value = 5.1,
         format="%.2f")
     
     nremployed = st.number_input(
         label="Number of employees - quarterly indicator",
-        step=1.,
+        min_value = 4963.0,
+        max_value = 5229.0,
         format="%.2f")
     
     # Create button to submit the form
