@@ -6,15 +6,21 @@ Selain memberikan manfaat sosial, Bank sebagai sebuah perusahaan memiliki kebutu
 
 Oleh sebab itu, dilakukan usaha-usaha yang bisa dilakukan untuk menarik minat masyarakat untuk menyetorkan dananya ke bank. Salah satunya adalah dengan melakukan campaign telemarketing. Namun, telemarketing-pun juga membutuhkan resource yang tidak sedikit baik itu biaya, tenaga dan waktu. Dibutuhkan targeting yang tepat terhadap customer yang akan melakukan campaign telemarketing. Sehingga resource yang dibutuhkan tidak sia-sia dan bank mampu mendapatkan modal dengan lebih banyak sehingga profit perusahaan juga akan meningkat.
 
-## Latar Belakang
+## Objectives
 
 Dari permasalahan tersebut, dibuatlah klasifikasi yang bertujuan untuk memprediksi apakah nasabah akan berlangganan deposit atau tidak yang nantinya akan dapat digunakan untuk mengoptimalisasi targeting pada campaign telemarketing sehingga resource yang ada dapat dimanfaatkan kepada target yang sesuai dan menjadikan peningkatan profit pada perusahaan.
 
 ## Blok Diagram Persiapan Data
 
-## Blok Diagram Preprocessing
+![](https://github.com/satriahelmy/telemarketing/blob/main/image/data_pipeline.png)
+
+## Blok Diagram Preprocessing dan Feature Engineering
+
+![](https://github.com/satriahelmy/telemarketing/blob/main/image/preprocessing.png)
 
 ## Blok Diagram Pemodelan dan Evaluasinya
+
+![](https://github.com/satriahelmy/telemarketing/blob/main/image/modelling.png)
 
 ## Format message untuk melakukan prediksi via API
 Kita perlu melakukan hit ke API `<host>:8080/predict`
