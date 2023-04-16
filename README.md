@@ -51,6 +51,9 @@ Dataset yang digunakan adalah dataset bank telemarketing dengan feature sebagai 
 **Output variable (desired target)**
 - `y` - apakah klien berlangganan deposit? (binary: "yes","no")
 
+## Overall Workflow
+![](https://github.com/satriahelmy/telemarketing/blob/main/image/workflow.png)
+
 ## Blok Diagram Persiapan Data
 
 ![](https://github.com/satriahelmy/telemarketing/blob/main/image/data_pipeline.png)
@@ -64,7 +67,7 @@ Dataset yang digunakan adalah dataset bank telemarketing dengan feature sebagai 
 ![](https://github.com/satriahelmy/telemarketing/blob/main/image/modelling.png)
 
 ## Format message untuk melakukan prediksi via API
-Kita perlu melakukan hit ke API `<host>:8080/predict`
+Kita perlu melakukan hit ke API `<host>:8080/predict` dengan method POST
 
 ```
 {
@@ -99,6 +102,10 @@ Kita perlu melakukan hit ke API `<host>:8080/predict`
 }
 ```
 
+## Tampilan Website (Streamlit)
+Selain API, terdapat juga tampilan dalam bentuk website. Cara mengaksesnya adalah sebagai berikut : `<host>:8501`
+![](https://github.com/satriahelmy/telemarketing/blob/main/image/website.jpg)
+
 ## Cara menjalankan machine learning di lokal Computer
 
 ### Retraining model
@@ -129,6 +136,7 @@ Terdapat 2 cara menjalankan API, yaitu dengan menggunakan uvicorn atau menggunak
 &nbsp;&nbsp;&nbsp; `docker-compose up -d`
 
 ## Simpulan
+- Klasifikasi bank telemarketing telah dapat digunakan (dideploy) dalam bentuk API dan Website (Streamlit)
 - Klasifikasi bank telemarketing memiliki performa macro average F1 sebesar 0.78
 
 ## Reference
