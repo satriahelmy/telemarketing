@@ -1,5 +1,15 @@
 # Telemarketing Classification
 
+## Latar Belakang
+
+Selain memberikan manfaat sosial, Bank sebagai sebuah perusahaan memiliki kebutuhan untuk mendapatkan keuntungan dari setiap usahanya. Salah satu caranya adalah menyalurkan kredit dan investasi surat berharga. Namun, untuk menyalurkan kredit tentu saja membutuhkan sumber dana yang mencukupi. Sumber dana bank sendiri terdiri dari 3 jenis, yaitu modal sendiri, modal dari pihak lembaga lain, dan modal dari masyarakat.
+
+Oleh sebab itu, dilakukan usaha-usaha yang bisa dilakukan untuk menarik minat masyarakat untuk menyetorkan dananya ke bank. Salah satunya adalah dengan melakukan campaign telemarketing. Namun, telemarketing-pun juga membutuhkan resource yang tidak sedikit baik itu biaya, tenaga dan waktu. Dibutuhkan targeting yang tepat terhadap customer yang akan melakukan campaign telemarketing. Sehingga resource yang dibutuhkan tidak sia-sia dan bank mampu mendapatkan modal dengan lebih banyak sehingga profit perusahaan juga akan meningkat.
+
+## Latar Belakang
+
+Dari permasalahan tersebut, dibuatlah klasifikasi yang bertujuan untuk memprediksi apakah nasabah akan berlangganan deposit atau tidak yang nantinya akan dapat digunakan untuk mengoptimalisasi targeting pada campaign telemarketing sehingga resource yang ada dapat dimanfaatkan kepada target yang sesuai dan menjadikan peningkatan profit pada perusahaan.
+
 ## Blok Diagram Persiapan Data
 
 ## Blok Diagram Preprocessing
