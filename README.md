@@ -144,3 +144,4 @@ Terdapat 2 cara menjalankan API, yaitu dengan menggunakan uvicorn atau menggunak
 - Dataset : http://archive.ics.uci.edu/ml/datasets/Bank+Marketing
 - Citation :
 [Moro et al., 2014] S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, In press, http://dx.doi.org/10.1016/j.dss.2014.03.001
+- Penjelasan medium : https://medium.com/@helmysmp/ml-process-klasifikasi-client-berlangganan-deposit-dengan-data-telemarketing-b1c511ced19c
